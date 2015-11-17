@@ -18,7 +18,7 @@
         beforeEach(function() {
 
             /* Define modules that are used - include any third party module dependencies */
-            module("aqTrak.Portal.Module");
+            module("App.Module");
 
             inject(function(_$controller_, _$rootScope_, _$q_, _$httpBackend_) {
 
