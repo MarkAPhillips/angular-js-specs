@@ -5,7 +5,7 @@ module.exports = function(config) {
     config.set({
 
         // base path that will be used to resolve all patterns (eg. files, exclude)
-        basePath: "aqTrak.Portal/src",
+        basePath: "/src",
 
         browserNoActivityTimeout: 60000,
 
@@ -29,21 +29,6 @@ module.exports = function(config) {
             "../src/app.module.js",
             "../src/app.routes.js",
             "../src/app.constants.js",
-            "../src/app/common/common.module.js",
-            "../src/app/common/services/*factory.js",
-            "../src/app/common/directives/*directive.js",
-            "../src/app/location/location.module.js",
-            "../src/app/location/services/*factory.js",
-            "../src/app/location/controllers/*controller.js",
-            "../src/app/auth/auth.module.js",
-            "../src/app/auth/services/*factory.js",
-            "../src/app/auth/controllers/*controller.js",
-            "../src/app/administration/admin.module.js",
-            "../src/app/administration/controllers/*controller.js",
-            "../src/app/user/user.module.js",
-            "../src/app/user/services/*factory.js",
-            "../src/app/myaccount/myaccount.module.js",
-            "../src/app/myaccount/controllers/*controller.js",
             "../src/app/**/*specs.js"
         ],
 
