@@ -5,8 +5,8 @@
 
     describe("when logging into an application as an invalid end user", function() {
 
-        var aqTrakLogin = require("../e2e/pageobjects/login");
-        var login = new aqTrakLogin();
+        var Login = require("../e2e/pageobjects/login");
+        var login = new Login();
         var dashboard = require("../e2e/pageobjects/dashboard");
         var dashboard = new dashboard();
 
